@@ -1,0 +1,4 @@
+#Mon Jun 17 17:08:23 BRT 2019
+base.0=/home/mateusedival/AndroidStudioProjects/DCalc/app/build/intermediates/dex/release/mergeDexRelease/out
+path.0=classes.dex
+renamed.0=classes.dex

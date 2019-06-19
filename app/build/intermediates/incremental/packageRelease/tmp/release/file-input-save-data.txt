@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Jun 17 17:08:24 BRT 2019
+0.baseType=DIRECTORY
+0.base=/home/mateusedival/AndroidStudioProjects/DCalc/app/build/intermediates/dex/release/mergeDexRelease/out
+0.path=classes.dex
+0.set=DEX
+count=1

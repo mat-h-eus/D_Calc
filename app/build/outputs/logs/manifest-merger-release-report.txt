@@ -1,0 +1,172 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:design:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/d08bbdca39edab504295e5ee1adfb9b7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/eb1e63ffc94c2760b1ba47e7d5390d01/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/beb66640f6365bb8628ac82884d3831c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/948e3d873daefcd6e31ed351ee70fa99/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/e6717efb6b78315e2f5d4e1f35ae7cec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/3227abed19c0dee69f724544d44fe86a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/c2e600b70f76369ecee728c4a9829fef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/1168cf7aa3a8ef1499f4d1bce41d8ce5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/f883c5230a4909b5f6774d68d57c23f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/4c8de9207525cb3fdac6e059a55b3ccb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/8a8591b675e8859500359a16f85b4d12/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/a322dbe842652a68acdd501aff048f07/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/f11de52b0db886d124b02223f630e1bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/584c82784d2c233caea711eee5b24782/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/ff0fda4eab68681c9c85b3cfe10841cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/b3b73cb73272f53c1c662f757307ef9f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/fabf43d8d06f43bcb7bb0d47970ef08b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/cb583aaa5310a4b4ec2b068dacce3478/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/4a7e0d7b2f9f8a6c036179c2f39325c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/9d235de49368f87e6fade64064bdde85/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/4568d1b3a236c886506c62b9032a0269/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/6ccac13f50ed8a22514057a9b8b4dcd0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/c7cbd0e79379e3a9c40a46934b3c0fac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/23246b59137214afee452dfa09de07dc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/6239eb335a11098ec0c48ac27916162f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/d8f55a3983e76c08f5c1490a2ecd1086/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/0034f671bc6403be0a58dde8ec320e3e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/cb5115c1dc22bbd4c28a3d5f107c0206/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/b822efdeb704b31fc79818d6326c14ae/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/6820c44d9bcb05b8c3ea811449dc183c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/181ef6161145d37140acc84bafd7e3ec/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support:design:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/d08bbdca39edab504295e5ee1adfb9b7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/d08bbdca39edab504295e5ee1adfb9b7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/beb66640f6365bb8628ac82884d3831c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/beb66640f6365bb8628ac82884d3831c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/9d235de49368f87e6fade64064bdde85/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/9d235de49368f87e6fade64064bdde85/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/4568d1b3a236c886506c62b9032a0269/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/4568d1b3a236c886506c62b9032a0269/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/9d235de49368f87e6fade64064bdde85/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.d_calc.MainActivity
+ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/d08bbdca39edab504295e5ee1adfb9b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/d08bbdca39edab504295e5ee1adfb9b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/eb1e63ffc94c2760b1ba47e7d5390d01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/eb1e63ffc94c2760b1ba47e7d5390d01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/beb66640f6365bb8628ac82884d3831c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/beb66640f6365bb8628ac82884d3831c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/948e3d873daefcd6e31ed351ee70fa99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/948e3d873daefcd6e31ed351ee70fa99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/e6717efb6b78315e2f5d4e1f35ae7cec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/e6717efb6b78315e2f5d4e1f35ae7cec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/3227abed19c0dee69f724544d44fe86a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/3227abed19c0dee69f724544d44fe86a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/c2e600b70f76369ecee728c4a9829fef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/c2e600b70f76369ecee728c4a9829fef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/1168cf7aa3a8ef1499f4d1bce41d8ce5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/1168cf7aa3a8ef1499f4d1bce41d8ce5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/f883c5230a4909b5f6774d68d57c23f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/f883c5230a4909b5f6774d68d57c23f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/4c8de9207525cb3fdac6e059a55b3ccb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/4c8de9207525cb3fdac6e059a55b3ccb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/8a8591b675e8859500359a16f85b4d12/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/8a8591b675e8859500359a16f85b4d12/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/a322dbe842652a68acdd501aff048f07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/a322dbe842652a68acdd501aff048f07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/f11de52b0db886d124b02223f630e1bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/f11de52b0db886d124b02223f630e1bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/584c82784d2c233caea711eee5b24782/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/584c82784d2c233caea711eee5b24782/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/ff0fda4eab68681c9c85b3cfe10841cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/ff0fda4eab68681c9c85b3cfe10841cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/b3b73cb73272f53c1c662f757307ef9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/b3b73cb73272f53c1c662f757307ef9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/fabf43d8d06f43bcb7bb0d47970ef08b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/fabf43d8d06f43bcb7bb0d47970ef08b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/cb583aaa5310a4b4ec2b068dacce3478/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/cb583aaa5310a4b4ec2b068dacce3478/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/4a7e0d7b2f9f8a6c036179c2f39325c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/4a7e0d7b2f9f8a6c036179c2f39325c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/9d235de49368f87e6fade64064bdde85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/9d235de49368f87e6fade64064bdde85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/4568d1b3a236c886506c62b9032a0269/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/4568d1b3a236c886506c62b9032a0269/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/6ccac13f50ed8a22514057a9b8b4dcd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/6ccac13f50ed8a22514057a9b8b4dcd0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/c7cbd0e79379e3a9c40a46934b3c0fac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/c7cbd0e79379e3a9c40a46934b3c0fac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/23246b59137214afee452dfa09de07dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/23246b59137214afee452dfa09de07dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/6239eb335a11098ec0c48ac27916162f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/6239eb335a11098ec0c48ac27916162f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/d8f55a3983e76c08f5c1490a2ecd1086/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/d8f55a3983e76c08f5c1490a2ecd1086/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/0034f671bc6403be0a58dde8ec320e3e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/0034f671bc6403be0a58dde8ec320e3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/cb5115c1dc22bbd4c28a3d5f107c0206/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/cb5115c1dc22bbd4c28a3d5f107c0206/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/b822efdeb704b31fc79818d6326c14ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/b822efdeb704b31fc79818d6326c14ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/6820c44d9bcb05b8c3ea811449dc183c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/6820c44d9bcb05b8c3ea811449dc183c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/181ef6161145d37140acc84bafd7e3ec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/mateusedival/.gradle/caches/transforms-2/files-2.1/181ef6161145d37140acc84bafd7e3ec/AndroidManifest.xml:20:5-44
+INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+		ADDED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mateusedival/AndroidStudioProjects/DCalc/app/src/main/AndroidManifest.xml
