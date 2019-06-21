@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Cadastro_D extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -23,36 +24,17 @@ public class Cadastro_D extends AppCompatActivity
     TextView tvEq;
     EditText etNome;
     EditText etEq;
-    Button btnOk;
-
+    Button btnAdd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
         tvNome = findViewById(R.id.tvNome);
         tvEq = findViewById(R.id.tvEq);
         etNome = findViewById(R.id.etNome);
         etEq = findViewById(R.id.etEq);
-        btnOk = findViewById(R.id.btnAdd);
-
-        btnOk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //Roda o controlador aqui
-                //Salva no banco se tudo der certo
-
-
-                String nome = etNome.getText().toString().trim();
-
-                Intent intent = new Intent();
-                intent.putExtra("nome",nome);
-                setResult(RESULT_OK,intent);
-                Cadastro_D.this.finish();
-            }
-        });
-
+        btnAdd = findViewById(R.id.btnAdd);
 
         setContentView(R.layout.activity_cadastro__d);
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -64,6 +46,26 @@ public class Cadastro_D extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+    }
+    public void salvaMateria(View v) {
+        //Roda o controlador aqui
+        //Salva no banco se tudo der certo
+
+        EditText etNome;
+        EditText etEq;
+        etNome = (EditText) findViewById(R.id.etNome);
+        etEq = (EditText)findViewById(R.id.etEq);
+        Dao dao = new Dao(getBaseContext());
+        String nome = etNome.getText().toString();
+        String equacao = etEq.getText().toString();
+        String resultado;
+        resultado = dao.insereDadoMateria(nome, equacao);
+        Toast.makeText(getApplicationContext(), resultado, Toast.LENGTH_LONG).show();
+
+        /*Intent intent = new Intent();
+        intent.putExtra("nome",nome);
+        setResult(RESULT_OK,intent);
+        Cadastro_D.this.finish();*/
     }
 
     @Override

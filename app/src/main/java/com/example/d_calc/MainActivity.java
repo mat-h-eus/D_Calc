@@ -47,8 +47,11 @@ public class MainActivity extends AppCompatActivity
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,com.example.d_calc.Cadastro_D.class);
-                startActivityForResult(intent,CADASTRO_DISC);
+                //Intent intent = new Intent(MainActivity.this,com.example.d_calc.Cadastro_D.class);
+                //startActivityForResult(intent,CADASTRO_DISC);
+
+                Intent intent = new Intent(MainActivity.this, com.example.d_calc.Cadastro_D.class);
+                startActivity(intent);
 
             }
         });
@@ -58,7 +61,7 @@ public class MainActivity extends AppCompatActivity
 
         disciplinas = new ArrayList<>();
         disciplinas.add(new Disciplina("Calculo"));
-        disciplinas.add(new Disciplina("Calculo II"));
+        //disciplinas.add(new Disciplina("Calculo II"));
 
         myAdapter = new DisciplinaAdapter(this,disciplinas);
         recyclerView.setAdapter(myAdapter);

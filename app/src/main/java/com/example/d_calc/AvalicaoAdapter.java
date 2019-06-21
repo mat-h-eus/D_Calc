@@ -33,7 +33,7 @@ class AvalicaoAdapter extends RecyclerView.Adapter {
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    activity.onItemClicked(disciplinas.indexOf((Disciplina)itemView.getTag()));
+                   // activity.onItemClicked(disciplinas.indexOf((Disciplina)itemView.getTag()));
                 }
             });
 

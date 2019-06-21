@@ -45,8 +45,6 @@ public class DisciplinaAdapter extends RecyclerView.Adapter<DisciplinaAdapter.Vi
         }
     }
 
-
-
     @NonNull
     @Override
     public DisciplinaAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
