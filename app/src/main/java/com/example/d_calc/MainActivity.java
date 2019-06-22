@@ -1,10 +1,12 @@
 package com.example.d_calc;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -41,27 +43,17 @@ public class MainActivity extends AppCompatActivity
 
         recyclerView = findViewById(R.id.list);
         recyclerView.setHasFixedSize(true);
-
         btnAdd = findViewById(R.id.btnAdd);
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent intent = new Intent(MainActivity.this,com.example.d_calc.Cadastro_D.class);
-                //startActivityForResult(intent,CADASTRO_DISC);
-
                 Intent intent = new Intent(MainActivity.this, com.example.d_calc.Cadastro_D.class);
                 startActivity(intent);
-
             }
         });
 
-        layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
-
-        disciplinas = new ArrayList<>();
-        disciplinas.add(new Disciplina("Calculo"));
-        //disciplinas.add(new Disciplina("Calculo II"));
+        loadDisciplinas();
 
         myAdapter = new DisciplinaAdapter(this,disciplinas);
         recyclerView.setAdapter(myAdapter);
@@ -70,11 +62,19 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+    }
+    public void loadDisciplinas(){
+        Dao dao = new Dao(getBaseContext());
+
+        layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
+
+        disciplinas = new ArrayList<>();
+        disciplinas = dao.carregaDadosDisciplinas();
     }
 
     @Override

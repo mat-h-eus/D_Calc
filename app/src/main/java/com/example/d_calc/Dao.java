@@ -2,7 +2,10 @@ package com.example.d_calc;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+
+import java.util.ArrayList;
 
 public class Dao {
     private SQLiteDatabase db;
@@ -28,6 +31,26 @@ public class Dao {
             return "Erro ao salvar :(";
         else
             return "Salvo!";
+    }
+    public ArrayList<Disciplina> carregaDadosDisciplinas(){
+        Cursor cursor;
+        ArrayList<Disciplina> disciplinas = new ArrayList();
+
+        String[] campos = {"ID", "NOME"};
+        db = banco.getReadableDatabase();
+        cursor = db.query(banco.getTabelaMaterias(), campos, null, null, null, null, null, null);
+
+        if(cursor!=null)
+            cursor.moveToFirst();
+
+        while(cursor.moveToNext()){
+            Disciplina d = new Disciplina(cursor.getString(1));
+            d.setID(cursor.getInt(0));
+
+            disciplinas.add(d);
+        }
+
+        return disciplinas;
     }
 
 }
