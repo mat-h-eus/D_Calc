@@ -26,7 +26,7 @@ public class DisciplinaAdapter extends RecyclerView.Adapter<DisciplinaAdapter.Vi
     {
         disciplinas = list;
         this.context = context;
-        //activity = (ItemClicked) context;
+        activity = (ItemClicked) context;
 
     }
 
@@ -55,14 +55,14 @@ public class DisciplinaAdapter extends RecyclerView.Adapter<DisciplinaAdapter.Vi
         final TextView tvDisciplina;
 
 
-        public ViewHolder(View itemView) {
+        public ViewHolder(final View itemView) {
             super(itemView);
             tvDisciplina = itemView.findViewById(R.id.tvDisciplina);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
+                    activity.onItemClicked(disciplinas.indexOf((Disciplina)itemView.getTag()));
                     Log.d("DEBUG", "teste");
 
                 }

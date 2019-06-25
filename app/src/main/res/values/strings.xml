@@ -21,4 +21,6 @@
     <string name="ex_p1_p2_p3_p4_4">Ex: ((P1 + P2 + P3 + P4)/4)</string>
     <string name="confirmar">Confirmar</string>
     <string name="title_activity_disciplina__view">Disciplina_View</string>
+    <string name="nota_obejtivo">Nota Obejtivo</string>
+    <string name="_100">100</string>
 </resources>

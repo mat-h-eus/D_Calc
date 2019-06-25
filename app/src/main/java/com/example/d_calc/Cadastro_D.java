@@ -22,8 +22,10 @@ public class Cadastro_D extends AppCompatActivity
 
     TextView tvNome;
     TextView tvEq;
+    TextView tvNota;
     EditText etNome;
     EditText etEq;
+    EditText etNota;
     Button btnAdd;
 
     @Override
@@ -34,6 +36,8 @@ public class Cadastro_D extends AppCompatActivity
         tvEq = findViewById(R.id.tvEq);
         etNome = findViewById(R.id.etNome);
         etEq = findViewById(R.id.etEq);
+        tvNota = findViewById(R.id.tvNota);
+        etNota = findViewById(R.id.etNota);
         btnAdd = findViewById(R.id.btnAdd);
 
         setContentView(R.layout.activity_cadastro__d);
@@ -53,14 +57,22 @@ public class Cadastro_D extends AppCompatActivity
 
         EditText etNome;
         EditText etEq;
+        EditText etNota;
         etNome = (EditText) findViewById(R.id.etNome);
         etEq = (EditText)findViewById(R.id.etEq);
+        etNota = (EditText)findViewById(R.id.etNota);
         Dao dao = new Dao(getBaseContext());
         String nome = etNome.getText().toString();
         String equacao = etEq.getText().toString();
+        String nota = etNota.getText().toString();
         String resultado;
-        resultado = dao.insereDadoMateria(nome, equacao);
+        resultado = dao.insereDadoMateria(nome, equacao, nota);
         Toast.makeText(getApplicationContext(), resultado, Toast.LENGTH_LONG).show();
+
+        Intent intent = new Intent();
+        intent.putExtra("nome",nome);
+        setResult(RESULT_OK,intent);
+        Cadastro_D.this.finish();
 
         /*Intent intent = new Intent();
         intent.putExtra("nome",nome);

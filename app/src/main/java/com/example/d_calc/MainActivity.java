@@ -41,8 +41,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        recyclerView = findViewById(R.id.list);
-        recyclerView.setHasFixedSize(true);
+
         btnAdd = findViewById(R.id.btnAdd);
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
@@ -55,9 +54,6 @@ public class MainActivity extends AppCompatActivity
 
         loadDisciplinas();
 
-        myAdapter = new DisciplinaAdapter(this,disciplinas);
-        recyclerView.setAdapter(myAdapter);
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -68,13 +64,23 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
     }
     public void loadDisciplinas(){
+
+        recyclerView = findViewById(R.id.list);
+        recyclerView.setHasFixedSize(true);
+
         Dao dao = new Dao(getBaseContext());
+
 
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
         disciplinas = new ArrayList<>();
         disciplinas = dao.carregaDadosDisciplinas();
+
+        myAdapter = new DisciplinaAdapter(this,disciplinas);
+        recyclerView.setAdapter(myAdapter);
+
+        //dao.limpaBanco();
     }
 
     @Override
@@ -137,36 +143,14 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onItemClicked(int index) {
         Intent intent = new Intent(this,com.example.d_calc.Disciplina_View.class);
-        startActivityForResult(intent,DISCIPLINA_VIEW);
+        startActivity(intent);
     }
-
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == CADASTRO_DISC){
-            if(resultCode == RESULT_OK)
-            {
-                disciplinas.add(new Disciplina(data.getStringExtra("nome")));
-                myAdapter.notifyDataSetChanged();
-
-            }
-            else if(resultCode == RESULT_CANCELED)
-            {
-
-            }
-
-        }
-        else if(requestCode == DISCIPLINA_VIEW)
-        {
-            if(resultCode == RESULT_OK)
-            {
-
-            }
-            else if(resultCode == RESULT_CANCELED)
-            {
-
-            }
-        }
+    protected void onResume() {
+        super.onResume();
+        loadDisciplinas();
     }
+
+
 }

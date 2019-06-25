@@ -33,6 +33,7 @@
         android:id="@+id/tvEq"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp"
         android:text="@string/equa_ao"
@@ -47,6 +48,25 @@
         android:ems="10"
         android:hint="@string/ex_p1_p2_p3_p4_4"
         android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/nota_obejtivo"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/_100"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/btnAdd"

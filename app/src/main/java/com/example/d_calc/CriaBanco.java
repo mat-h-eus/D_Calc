@@ -24,7 +24,8 @@ public class CriaBanco extends SQLiteOpenHelper{
         String sqlCriaTabelaMaterias = " CREATE TABLE " + TABELA_MATERIAS + "("
                                             +" ID integer primary key autoincrement,"
                                             +" NOME text,"
-                                            +" EQUACAO text"
+                                            +" EQUACAO text,"
+                                            +"NOTA real"
                                         +");";
         String sqlCriaTabelaProvas = " CREATE TABLE " + TABELA_PROVAS + "("
                                             +" ID integer primary key autoincrement,"
@@ -44,7 +45,6 @@ public class CriaBanco extends SQLiteOpenHelper{
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int uld, int nw){
-
 
         db.execSQL("drop table if  exists " + TABELA_MATERIAS);
         db.execSQL("drop table if exists " + TABELA_PROVAS);

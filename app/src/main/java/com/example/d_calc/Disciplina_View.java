@@ -3,6 +3,7 @@ package com.example.d_calc;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -14,16 +15,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 public class Disciplina_View extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, DisciplinaAdapter.ItemClicked {
 
-    RecyclerView recyclerView;
-    RecyclerView.Adapter myAdapter;
-    RecyclerView.LayoutManager layoutManager;
-    Button btnAdd;
+
+
 
     ArrayList<Avalicao> avalicaos;
 
@@ -31,22 +31,16 @@ public class Disciplina_View extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        RecyclerView recyclerView;
+        RecyclerView.Adapter myAdapter;
+        RecyclerView.LayoutManager layoutManager;
         recyclerView = findViewById(R.id.list);
-        recyclerView.setHasFixedSize(true);
-
-        btnAdd = findViewById(R.id.btnAdd);
+//        recyclerView.setHasFixedSize(true);
 
 
-        btnAdd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //Intent intent = new Intent(this,com.example.d_calc..class);
-                //startActivityForResult(intent,);
-
-            }
-        });
 
         layoutManager = new LinearLayoutManager(this);
+
         recyclerView.setLayoutManager(layoutManager);
 
         myAdapter = new AvalicaoAdapter(this,avalicaos);
@@ -120,5 +114,10 @@ public class Disciplina_View extends AppCompatActivity
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onItemClicked(int index) {
+        Toast.makeText(getApplicationContext(), "yay", Toast.LENGTH_LONG).show();
     }
 }
